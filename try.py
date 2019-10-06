@@ -37,7 +37,7 @@ Wind = other[2].strip()
 with open('weather.csv', 'a') as new_file:
  	csv_writer = csv.writer(new_file)
  	csv_writer.writerow([city,
- 						 Time
+ 						 Time,
  						 Date
  						 Temperature,
  						 Precipitation,
