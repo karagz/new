@@ -6,7 +6,7 @@ import csv
 city = input('Enter City')
 url = 'https://www.wunderground.com/weather/in/' + city
 
-try
+try:
 	response = requests.get(url)
 except requests.exceptions.RequestException as e:
 	print(e)
