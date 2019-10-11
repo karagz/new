@@ -12,7 +12,7 @@ except requests.exceptions.RequestException as e:
 	print(e)
 	exit(1)
 
-try
+try:
 	response.raise_for_status()
 except Exception as e:
 	print(e)
