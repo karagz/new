@@ -38,7 +38,7 @@ with open('weather.csv', 'a') as new_file:
  	csv_writer = csv.writer(new_file)
  	csv_writer.writerow([city,
  						 Time
- 						 Date
+ 						 Date,
  						 Temperature,
  						 Precipitation,
  						 sky,Wind])
